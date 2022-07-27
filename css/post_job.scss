@@ -1,0 +1,115 @@
+.header
+{
+  width: 100%;
+  height: 50px;
+ 
+  color: black;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  
+}
+.title
+{
+  padding-left: 20px;
+  
+}
+.signIn-btn
+{
+  margin: 5px;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  border: orange;
+  border-radius: 10px;
+  background-color: orange;
+  box-shadow: rgb(90, 90, 90) 2px 2px 2px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.signIn-btn:hover
+{
+  background-color: red;
+  border: red;
+}
+
+.img-div
+{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+ 
+}
+.title2
+{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  
+
+}
+.post-type
+{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.post-directly
+{
+  flex: 0.5;
+  
+}
+.auto-index
+{
+  flex: 0.5;
+
+}
+h2
+{
+  border-bottom: blue 1px solid;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.pay-btn
+{
+  width: 100px;
+  height: 35px;
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  border-color: blue;
+  cursor: pointer;
+}
+
+.pay-btn:hover
+{
+  background-color: red;
+  border-color: red;
+}
+
+
+.cv-search
+{
+  margin-top: 30px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.cv-search-btn
+{
+  width: 20%;
+  background-color: white;
+  height: 30px;
+  border-radius: 30px;
+  border-color: blue;
+
+}
+.cv-search-btn-div :hover
+{
+  background-color: crimson;
+  color: aliceblue;
+  border-color: crimson;
+}

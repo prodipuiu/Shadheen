@@ -1,0 +1,132 @@
+.header {
+  width: 100%;
+  height: 50px;
+  color: black;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.title {
+  padding-left: 20px;
+}
+
+.signIn-btn {
+  margin: 5px;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  border: orange;
+  border-radius: 10px;
+  background-color: orange;
+  -webkit-box-shadow: #5a5a5a 2px 2px 2px;
+          box-shadow: #5a5a5a 2px 2px 2px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.signIn-btn:hover {
+  background-color: red;
+  border: red;
+}
+
+.img-div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.title2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post-type {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post-directly {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+}
+
+.auto-index {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+}
+
+h2 {
+  border-bottom: blue 1px solid;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.pay-btn {
+  width: 100px;
+  height: 35px;
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  border-color: blue;
+  cursor: pointer;
+}
+
+.pay-btn:hover {
+  background-color: red;
+  border-color: red;
+}
+
+.cv-search {
+  margin-top: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.cv-search-btn {
+  width: 20%;
+  background-color: white;
+  height: 30px;
+  border-radius: 30px;
+  border-color: blue;
+}
+
+.cv-search-btn-div :hover {
+  background-color: crimson;
+  color: aliceblue;
+  border-color: crimson;
+}
+/*# sourceMappingURL=post_job.css.map */

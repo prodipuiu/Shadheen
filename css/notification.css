@@ -1,0 +1,130 @@
+.box-1 {
+  position: fixed;
+  top: 73%;
+  left: 12%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.notification-1 {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.notification-1:hover {
+  height: 60px;
+  width: 300px;
+  text-align: left;
+  padding: 0 15px;
+  background: #cecece;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.notification-1 .fas {
+  color: #cecece;
+  line-height: 60px;
+  font-size: 30px;
+}
+
+.notification-1:hover .fas {
+  color: #fff;
+}
+
+.notification-1 .num-1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: red;
+  color: #fff;
+  line-height: 25px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.notification-1:hover .num-1 {
+  position: relative;
+  background: transparent;
+  color: #fff;
+  font-size: 24px;
+  top: -4px;
+}
+
+.notification-1:hover .num-1:after {
+  content: ' ' 'Notification';
+}
+
+.ulclass {
+  position: absolute;
+  left: 0;
+  top: 60px;
+  margin: 0;
+  width: 100%;
+  background: #fff;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: none;
+}
+
+.notification-1:hover ul {
+  display: block;
+}
+
+.ulclass li {
+  list-style: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ulclass li:last-child {
+  border-bottom: none;
+}
+
+.ulclass li .icon {
+  width: 24px;
+  height: 24px;
+  background: #ccc;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 24px;
+  margin-right: 15px;
+}
+
+.ulclass li .icon-1 .fas {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.ulclass li .text-1 {
+  position: relative;
+  font-family: sans-serif;
+  top: 3px;
+  cursor: pointer;
+}
+
+.ulclass li:hover .text-1 {
+  font-weight: bold;
+  color: black;
+}
+/*# sourceMappingURL=notification.css.map */

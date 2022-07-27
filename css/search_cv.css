@@ -1,0 +1,174 @@
+.header
+{
+  width: 100%;
+  height: 50px;
+ 
+  color: black;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+.title
+{
+  padding-left: 20px;
+  color: dodgerblue;
+  
+}
+.signIn-btn
+{
+  margin: 5px;
+  width: 80px;
+  height: 30px;
+  color: #fff;
+  border: dodgerblue;
+  border-radius: 10px;
+  background-color: dodgerblue;
+  box-shadow: rgb(90, 90, 90) 2px 2px 2px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.signIn-btn:hover
+{
+  background-color: red;
+  border: red;
+}
+
+.img-div
+{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+ 
+}
+.title2
+{
+  margin-top: 100px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin-bottom: 30px;
+  font-family: cursive;  
+
+}
+.post-type
+{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.post-directly
+{
+  flex: 0.5;
+  
+}
+.auto-index
+{
+  flex: 0.5;
+
+}
+.post-job-title
+{
+  border-bottom: dodgerblue 1px solid;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.pay-btn
+{
+  width: 100px;
+  height: 35px;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 20px;
+  border-color: dodgerblue;
+  cursor: pointer;
+}
+
+.pay-btn:hover
+{
+  background-color: red;
+  border-color: red;
+}
+
+
+.cv-search
+{
+  margin-top: 30px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.cv-search-btn
+{
+  width: 20%;
+  background-color: white;
+  height: 30px;
+  border-radius: 30px;
+  border-color: dodgerblue;
+
+}
+.cv-search-btn-div :hover
+{
+  background-color: crimson;
+  color: aliceblue;
+  border-color: crimson;
+}
+.search-cv-form
+{
+  width: 40%;
+}
+
+.payment{
+  list-style: none;
+  
+}
+.buttonA{
+  width: 8em;
+  height: 2em;
+  background-color: dodgerblue;
+  border-radius: 20px;
+  border-color: dodgerblue;
+  cursor: pointer;
+  margin-left: 15em;
+}
+.buttona{
+  color: white;
+  text-decoration: none;
+
+}
+
+.buttonB{
+  width: 11em;
+  height: 2.5em;
+  background-color: dodgerblue;
+  border-radius: 20px;
+  border-color: dodgerblue;
+  cursor: pointer;
+  margin-top: 1em;
+  margin-left: 13.5em
+ 
+}
+.buttonb{
+  color: white;
+  text-decoration: none;
+
+}
+.buttonC{
+  width: 10em;
+  height: 2.5em;
+  background-color: dodgerblue;
+  border-radius: 20px;
+  border-color: dodgerblue;
+  cursor: pointer;
+  margin-top: 1em;
+  margin-left: 14.2em;
+}
+.buttonc{
+  color: white;
+  text-decoration: none;
+
+}
